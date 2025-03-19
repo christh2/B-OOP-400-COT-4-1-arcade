@@ -1,0 +1,20 @@
+#Eze && Christ: Sfml et SDL2
+1-Créer la classe Sfml ou SDL qui hérite de IGraphic
+2- Coder toutes les fonctions (les laisser vide)
+3- Coder la Méthode loadResources pour initialiser toutes les ressources(sprites, texture, text, police...) et la map
+4- Coder la Méthode displayMap:
+    afficher la fenêtre
+    afficher la map avec les ressources chargées
+5- Coder la fonction getUserInput() :
+    Récupérer l'entrée du joueur et retourner le Keyboard
+    retourner keyNone si rien n'est entré
+6- Coder la Méthode isOpen():
+    retourner true si la fenêtre peut être ouverte
+    et false si la fenêtre peut être fermée
+7- Coder une Méthode close() pour fermer la fenêtre
+
+8- Faire un main:
+    loader une map depuis un fichier text
+    une boucle qui s'arrête si isOpen() retourne false
+    afficher la map dans la fenêtre
+    appeler close() lorsque le joueur touche E
